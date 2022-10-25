@@ -11,6 +11,7 @@ switch (s) {
 	int n2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo numero"));
 	NumeroMayor(n1,n2);
 	JOptionPane.showMessageDialog(null, "El numero mayor es: "+NumeroMayor(n1,n2));
+		break;
 	}
 
 	case 2:{
@@ -18,11 +19,13 @@ switch (s) {
 		int n2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo numero"));
 		NumeroMenor(n1,n2);
 		JOptionPane.showMessageDialog(null, "El numero menor es: "+NumeroMenor(n1,n2));
+		break;
 	}
 	case 3:{
 		int n1=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el  numero"));
 		RaizCuadrada(n1);
 		JOptionPane.showMessageDialog(null, "La raiz cuadrada del numero "+n1+" es: "+RaizCuadrada(n1));
+		break;
 	}
 
 	case 4:{
@@ -30,7 +33,7 @@ switch (s) {
 		int n2=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la potencia del numero"));
 		Potencia( n1,  n2);
 		JOptionPane.showMessageDialog(null, "La respuesta es "+Potencia(n1,n2));
-
+		break;
 	}
 }
 
